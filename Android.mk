@@ -1,4 +1,5 @@
-# Copyright (C) 2018 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -65,12 +66,12 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Tycho
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/app/Tycho/Tycho.apk;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/app/Tycho/Tycho.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk;PRESIGNED
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -148,36 +149,36 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentOKGoogleWCD9330
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9330/HotwordEnrollmentOKGoogleWCD9330.apk;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9330/HotwordEnrollmentOKGoogleWCD9330.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk;PRESIGNED
+LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentTGoogleWCD9330
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentTGoogleWCD9330/HotwordEnrollmentTGoogleWCD9330.apk;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentTGoogleWCD9330/HotwordEnrollmentTGoogleWCD9330.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk;PRESIGNED
+LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentXGoogleWCD9330
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentXGoogleWCD9330/HotwordEnrollmentXGoogleWCD9330.apk;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/priv-app/HotwordEnrollmentXGoogleWCD9330/HotwordEnrollmentXGoogleWCD9330.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk;PRESIGNED
+LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -232,51 +233,51 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := cneapiclient
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/framework/cneapiclient.jar
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar;PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.google.android.camera.experimental2016
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2016.jar;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/framework/com.google.android.camera.experimental2016.jar
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar;PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar;PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := rcsimssettings
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/framework/rcsimssettings.jar
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar;PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := rcsservice
 LOCAL_MODULE_OWNER := lge
-LOCAL_SRC_FILES := proprietary/framework/rcsservice.jar;PRESIGNED
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/framework/rcsservice.jar
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar;PRESIGNED
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 endif
